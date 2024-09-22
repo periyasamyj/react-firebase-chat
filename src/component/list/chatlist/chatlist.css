@@ -1,0 +1,49 @@
+.chalist{
+    display: flex;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+    .searchbar{
+        display: flex;
+        border-radius: 10px;
+        padding: 5px;
+        padding-right: px;
+        align-items: center;
+        background-color: rgba(7, 7, 26, 0.55);
+        gap: 10px;
+        img{
+            height: 20px;
+            width: 20px;
+
+        }
+
+        input{
+            padding-right: 80px;
+            color: whitesmoke;
+           flex: 1;
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+        }
+
+    }
+    .add{
+        width: 36px;
+        height: 36px;
+        background-color: rgba(7, 7, 26, 0.55);
+        padding: 10px;
+        border-radius: 10px;
+        
+    }
+}
+.item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+  img{}
+}
